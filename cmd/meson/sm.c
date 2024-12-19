@@ -33,6 +33,24 @@ static int do_sm_serial(struct cmd_tbl *cmdtp, int flag, int argc,
 	return CMD_RET_SUCCESS;
 }
 
+static int do_sm_chip_id(struct cmd_tbl *cmdtp, int flag, int argc,
+			char *const argv[])
+{
+	ulong address;
+	int ret;
+
+	if (argc < 2)
+		return CMD_RET_USAGE;
+
+	address = simple_strtoul(argv[1], NULL, 0);
+
+	ret = meson_sm_get_chip_id((void *)address, SM_CHIP_ID_SIZE);
+	if (ret)
+		return CMD_RET_FAILURE;
+
+	return CMD_RET_SUCCESS;
+}
+
 #define MAX_REBOOT_REASONS 14
 
 static const char *reboot_reasons[MAX_REBOOT_REASONS] = {
@@ -154,6 +172,7 @@ free_buffer:
 
 static struct cmd_tbl cmd_sm_sub[] = {
 	U_BOOT_CMD_MKENT(serial, 2, 1, do_sm_serial, "", ""),
+	U_BOOT_CMD_MKENT(chipid, 2, 1, do_sm_chip_id, "", ""),
 	U_BOOT_CMD_MKENT(reboot_reason, 1, 1, do_sm_reboot_reason, "", ""),
 	U_BOOT_CMD_MKENT(efuseread, 4, 1, do_efuse_read, "", ""),
 	U_BOOT_CMD_MKENT(efusewrite, 4, 0, do_efuse_write, "", ""),
@@ -183,7 +202,8 @@ static int do_sm(struct cmd_tbl *cmdtp, int flag, int argc,
 U_BOOT_CMD(
 	sm, 5, 0, do_sm,
 	"Secure Monitor Control",
-	"serial <address> - read chip unique id to memory address\n"
+	"serial <address> - read chip unique serial to memory address\n"
+	"sm chipid <address> - read unique chip id to memory address\n"
 	"sm reboot_reason [name] - get reboot reason and store to environment\n"
 	"sm efuseread <offset> <size> <address> - read efuse to memory address\n"
 	"sm efusewrite <offset> <size> <address> - write into efuse from memory address\n"
