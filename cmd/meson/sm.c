@@ -33,6 +33,24 @@ static int do_sm_serial(struct cmd_tbl *cmdtp, int flag, int argc,
 	return CMD_RET_SUCCESS;
 }
 
+static int do_sm_chip_id(struct cmd_tbl *cmdtp, int flag, int argc,
+			char *const argv[])
+{
+	ulong address;
+	int ret;
+
+	if (argc < 2)
+		return CMD_RET_USAGE;
+
+	address = simple_strtoul(argv[1], NULL, 0);
+
+	ret = meson_sm_get_chip_id((void *)address, SM_CHIP_ID_SIZE);
+	if (ret)
+		return CMD_RET_FAILURE;
+
+	return CMD_RET_SUCCESS;
+}
+
 #define MAX_REBOOT_REASONS 14
 
 static const char *reboot_reasons[MAX_REBOOT_REASONS] = {
@@ -158,6 +176,7 @@ static struct cmd_tbl cmd_sm_sub[] = {
 	U_BOOT_CMD_MKENT(efuseread, 4, 1, do_efuse_read, "", ""),
 	U_BOOT_CMD_MKENT(efusewrite, 4, 0, do_efuse_write, "", ""),
 	U_BOOT_CMD_MKENT(efusedump, 3, 1, do_efuse_dump, "", ""),
+	U_BOOT_CMD_MKENT(chipid, 2, 1, do_sm_chip_id, "", "")
 };
 
 static int do_sm(struct cmd_tbl *cmdtp, int flag, int argc,
@@ -187,5 +206,6 @@ U_BOOT_CMD(
 	"sm reboot_reason [name] - get reboot reason and store to environment\n"
 	"sm efuseread <offset> <size> <address> - read efuse to memory address\n"
 	"sm efusewrite <offset> <size> <address> - write into efuse from memory address\n"
-	"sm efusedump <offset> <size> - dump efuse data range to console"
+	"sm efusedump <offset> <size> - dump efuse data range to console\n"
+	"sm chipid <address> - read chip unique id to memory address"
 );
