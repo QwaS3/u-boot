@@ -1,0 +1,14 @@
+drivers/serial/serial_meson.c:106:13:meson_serial_rx_error	16	static
+drivers/serial/serial_meson.c:182:12:meson_serial_pending	32	static
+drivers/serial/serial_meson.c:139:12:meson_serial_putc	32	static
+drivers/serial/serial_meson.c:122:12:meson_serial_getc	32	static
+drivers/serial/serial_meson.c:210:12:meson_serial_of_to_plat	32	static
+drivers/serial/serial_meson.c:152:12:meson_serial_setbrg	96	static
+drivers/serial/serial_meson.c:89:12:meson_serial_probe	80	static
+drivers/serial/serial_meson.c:266:1:printch	0	static
+drivers/serial/serial_meson.c:266:1:printascii	0	static
+drivers/serial/serial_meson.c:266:1:printhex2	0	static
+drivers/serial/serial_meson.c:266:1:printhex4	0	static
+drivers/serial/serial_meson.c:266:1:printhex8	0	static
+drivers/serial/serial_meson.c:266:1:printdec	48	static
+drivers/serial/serial_meson.c:266:1:debug_uart_init	0	static

@@ -1,0 +1,1 @@
+cmd_disk/built-in.o :=  rm -f disk/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT disk/built-in.o disk/part.o disk/disk-uclass.o disk/part_dos.o disk/part_iso.o disk/part_efi.o

@@ -1,0 +1,17 @@
+drivers/adc/adc-uclass.c:51:12:adc_supply_enable	48	static
+drivers/adc/adc-uclass.c:270:12:adc_vdd_plat_update	32	static
+drivers/adc/adc-uclass.c:293:12:adc_vss_plat_update	32	static
+drivers/adc/adc-uclass.c:419:12:adc_pre_probe	32	static
+drivers/adc/adc-uclass.c:31:12:check_channel	48	static
+drivers/adc/adc-uclass.c:71:5:adc_data_mask	32	static
+drivers/adc/adc-uclass.c:82:5:adc_channel_mask	32	static
+drivers/adc/adc-uclass.c:94:5:adc_stop	32	static
+drivers/adc/adc-uclass.c:104:5:adc_start_channel	48	static
+drivers/adc/adc-uclass.c:123:5:adc_start_channels	48	static
+drivers/adc/adc-uclass.c:142:5:adc_channel_data	64	static
+drivers/adc/adc-uclass.c:168:5:adc_channels_data	64	static
+drivers/adc/adc-uclass.c:195:5:adc_channel_single_shot	48	static
+drivers/adc/adc-uclass.c:243:5:adc_channels_single_shot	64	static
+drivers/adc/adc-uclass.c:310:5:adc_vdd_value	48	static
+drivers/adc/adc-uclass.c:328:5:adc_vss_value	48	static
+drivers/adc/adc-uclass.c:346:5:adc_raw_to_uV	64	static

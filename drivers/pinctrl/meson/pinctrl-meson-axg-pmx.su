@@ -1,0 +1,5 @@
+drivers/pinctrl/meson/pinctrl-meson-axg-pmx.c:14:12:meson_axg_pmx_get_bank	32	static
+drivers/pinctrl/meson/pinctrl-meson-axg-pmx.c:96:12:meson_axg_pinmux_get	80	static
+drivers/pinctrl/meson/pinctrl-meson-axg-pmx.c:46:12:meson_axg_pmx_update_function	64	static
+drivers/pinctrl/meson/pinctrl-meson-axg-pmx.c:164:12:meson_axg_gpio_request	32	static
+drivers/pinctrl/meson/pinctrl-meson-axg-pmx.c:70:12:meson_axg_pinmux_group_set	48	static

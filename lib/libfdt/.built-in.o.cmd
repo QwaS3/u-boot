@@ -1,0 +1,1 @@
+cmd_lib/libfdt/built-in.o :=  rm -f lib/libfdt/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT lib/libfdt/built-in.o lib/libfdt/fdt.o lib/libfdt/fdt_ro.o lib/libfdt/fdt_wip.o lib/libfdt/fdt_strerror.o lib/libfdt/fdt_sw.o lib/libfdt/fdt_rw.o lib/libfdt/fdt_empty_tree.o lib/libfdt/fdt_addresses.o lib/libfdt/fdt_overlay.o

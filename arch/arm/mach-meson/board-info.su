@@ -1,0 +1,3 @@
+arch/arm/mach-meson/board-info.c:128:21:get_socinfo	48	static
+arch/arm/mach-meson/board-info.c:163:5:checkboard	16	static
+arch/arm/mach-meson/board-info.c:182:5:meson_get_soc_rev	32	static

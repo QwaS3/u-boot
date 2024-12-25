@@ -1,0 +1,13 @@
+lib/efi_loader/efi_helper.c:75:25:efi_get_dp_from_boot	128	static
+lib/efi_loader/efi_helper.c:112:14:efi_load_option_dp_join	64	static
+lib/efi_loader/efi_helper.c:183:13:guid_to_sha_str	48	static
+lib/efi_loader/efi_helper.c:201:5:algo_to_len	48	static
+lib/efi_loader/efi_helper.c:220:5:efi_link_dev	0	static
+lib/efi_loader/efi_helper.c:233:5:efi_unlink_dev	32	static
+lib/efi_loader/efi_helper.c:256:6:efi_varname_is_load_option	32	static
+lib/efi_loader/efi_helper.c:290:14:efi_next_variable_name	64	static
+lib/efi_loader/efi_helper.c:321:6:efi_search_bootorder	0	static
+lib/efi_loader/efi_helper.c:345:14:efi_env_set_load_options	64	static
+lib/efi_loader/efi_helper.c:433:7:efi_get_configuration_table	64	static
+lib/efi_loader/efi_helper.c:461:14:efi_install_fdt	1184	static
+lib/efi_loader/efi_helper.c:558:14:do_bootefi_exec	64	static

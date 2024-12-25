@@ -1,0 +1,5 @@
+drivers/reset/reset-meson.c:29:12:meson_reset_request	32	static
+drivers/reset/reset-meson.c:40:12:meson_reset_level	64	static
+drivers/reset/reset-meson.c:64:12:meson_reset_deassert	0	static
+drivers/reset/reset-meson.c:59:12:meson_reset_assert	0	static
+drivers/reset/reset-meson.c:101:12:meson_reset_probe	32	static

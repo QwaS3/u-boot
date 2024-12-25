@@ -1,0 +1,7 @@
+cmd/adc.c:161:1:complete_adc	0	static
+cmd/adc.c:11:12:do_adc_list	48	static
+cmd/adc.c:161:1:do_adc	48	static
+cmd/adc.c:104:12:do_adc_scan.part.0	368	static
+cmd/adc.c:104:12:do_adc_scan	0	static
+cmd/adc.c:67:12:do_adc_single	64	static
+cmd/adc.c:30:12:do_adc_info	64	static

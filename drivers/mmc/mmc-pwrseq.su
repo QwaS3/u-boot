@@ -1,0 +1,2 @@
+drivers/mmc/mmc-pwrseq.c:20:12:mmc_pwrseq_set_power	64	static
+drivers/mmc/mmc-pwrseq.c:13:5:mmc_pwrseq_get_power	0	static

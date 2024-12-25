@@ -1,0 +1,1 @@
+drivers/misc/pwrseq-uclass.c:11:5:pwrseq_set_power	0	static

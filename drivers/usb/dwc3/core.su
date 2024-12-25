@@ -1,0 +1,17 @@
+drivers/usb/dwc3/core.c:44:13:dwc3_set_mode	0	static
+drivers/usb/dwc3/core.c:285:12:dwc3_event_buffers_setup	0	static
+drivers/usb/dwc3/core.c:310:13:dwc3_event_buffers_cleanup	0	static
+drivers/usb/dwc3/core.c:415:13:dwc3_cache_hwparams	0	static
+drivers/usb/dwc3/core.c:733:12:dwc3_core_init_mode	16	static
+drivers/usb/dwc3/core.c:232:13:dwc3_free_event_buffers	32	static
+drivers/usb/dwc3/core.c:391:13:dwc3_free_scratch_buffers	32	static
+drivers/usb/dwc3/core.c:588:12:dwc3_core_init	48	static
+drivers/usb/dwc3/core.c:252:12:dwc3_alloc_event_buffers.constprop	64	static
+drivers/usb/dwc3/core.c:791:13:dwc3_core_exit_mode	16	static
+drivers/usb/dwc3/core.c:830:5:dwc3_uboot_init	48	static
+drivers/usb/dwc3/core.c:968:6:dwc3_uboot_exit	32	static
+drivers/usb/dwc3/core.c:1025:5:dwc3_setup_phy	32	static
+drivers/usb/dwc3/core.c:1044:5:dwc3_shutdown_phy	32	static
+drivers/usb/dwc3/core.c:1055:6:dwc3_of_parse	80	static
+drivers/usb/dwc3/core.c:1152:5:dwc3_init	32	static
+drivers/usb/dwc3/core.c:1220:6:dwc3_remove	32	static

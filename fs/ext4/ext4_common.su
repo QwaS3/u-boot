@@ -1,0 +1,10 @@
+fs/ext4/ext4_common.c:175:10:ext4fs_bg_get_inode_table_id	0	static
+fs/ext4/ext4_common.c:1593:5:ext4fs_read_inode	96	static
+fs/ext4/ext4_common.c:1643:10:read_allocated_block	128	static
+fs/ext4/ext4_common.c:2008:6:ext4fs_reinit_global	32	static
+fs/ext4/ext4_common.c:2029:6:ext4fs_close	32	static
+fs/ext4/ext4_common.c:2043:5:ext4fs_iterate_dir	112	dynamic
+fs/ext4/ext4_common.c:2210:5:ext4fs_find_file1	128	dynamic
+fs/ext4/ext4_common.c:2309:5:ext4fs_find_file	48	static
+fs/ext4/ext4_common.c:2333:5:ext4fs_open	64	static
+fs/ext4/ext4_common.c:2363:5:ext4fs_mount	48	static

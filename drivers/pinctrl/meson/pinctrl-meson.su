@@ -1,0 +1,17 @@
+drivers/pinctrl/meson/pinctrl-meson.c:85:12:meson_gpio_calc_reg_and_bit	48	static
+drivers/pinctrl/meson/pinctrl-meson.c:322:19:parse_address	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:30:5:meson_pinctrl_get_groups_count	16	static
+drivers/pinctrl/meson/pinctrl-meson.c:37:13:meson_pinctrl_get_group_name	32	static
+drivers/pinctrl/meson/pinctrl-meson.c:48:5:meson_pinctrl_get_pins_count	16	static
+drivers/pinctrl/meson/pinctrl-meson.c:55:13:meson_pinctrl_get_pin_name	32	static
+drivers/pinctrl/meson/pinctrl-meson.c:70:5:meson_pinmux_get_functions_count	16	static
+drivers/pinctrl/meson/pinctrl-meson.c:77:13:meson_pinmux_get_function_name	32	static
+drivers/pinctrl/meson/pinctrl-meson.c:115:5:meson_gpio_get	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:129:5:meson_gpio_set	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:145:5:meson_gpio_get_direction	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:161:5:meson_gpio_direction_input	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:177:5:meson_gpio_direction_output	80	static
+drivers/pinctrl/meson/pinctrl-meson.c:271:5:meson_pinconf_set	80	static
+drivers/pinctrl/meson/pinctrl-meson.c:293:5:meson_pinconf_group_set	64	static
+drivers/pinctrl/meson/pinctrl-meson.c:310:5:meson_gpio_probe	32	static
+drivers/pinctrl/meson/pinctrl-meson.c:340:5:meson_pinctrl_probe	80	static

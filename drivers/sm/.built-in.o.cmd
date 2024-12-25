@@ -1,0 +1,1 @@
+cmd_drivers/sm/built-in.o :=  rm -f drivers/sm/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/sm/built-in.o drivers/sm/sm-uclass.o drivers/sm/meson-sm.o

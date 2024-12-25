@@ -1,0 +1,15 @@
+boot/bootm.c:466:12:check_overlap.part.0	16	static
+boot/bootm.c:48:13:board_quiesce_devices	0	static
+boot/bootm.c:487:5:bootm_find_images	64	static
+boot/bootm.c:728:7:bootm_disable_interrupts	16	static
+boot/bootm.c:849:5:bootm_process_cmdline	0	static
+boot/bootm.c:871:5:bootm_process_cmdline_env	0	static
+boot/bootm.c:913:5:bootm_measure	0	static
+boot/bootm.c:982:5:bootm_run_states	160	static
+boot/bootm.c:1119:5:boot_run	0	static
+boot/bootm.c:1133:5:bootm_run	0	static
+boot/bootm.c:1140:5:bootz_run	0	static
+boot/bootm.c:1145:5:booti_run	0	static
+boot/bootm.c:1182:6:bootm_init	32	static
+boot/bootm.c:1150:5:bootm_boot_start	144	static
+boot/bootm.c:1195:13:switch_to_non_secure_mode	0	static

@@ -1,0 +1,14 @@
+boot/bootmeth-uclass.c:22:5:bootmeth_get_state_desc	0	static
+boot/bootmeth-uclass.c:32:5:bootmeth_check	0	static
+boot/bootmeth-uclass.c:42:5:bootmeth_read_bootflow	0	static
+boot/bootmeth-uclass.c:52:5:bootmeth_set_bootflow	0	static
+boot/bootmeth-uclass.c:75:5:bootmeth_boot	0	static
+boot/bootmeth-uclass.c:85:5:bootmeth_read_file	0	static
+boot/bootmeth-uclass.c:96:5:bootmeth_get_bootflow	48	static
+boot/bootmeth-uclass.c:107:5:bootmeth_setup_iter_order	112	static
+boot/bootmeth-uclass.c:205:5:bootmeth_set_order	96	static
+boot/bootmeth-uclass.c:254:5:bootmeth_setup_fs	0	static
+boot/bootmeth-uclass.c:269:5:bootmeth_try_file	256	static
+boot/bootmeth-uclass.c:304:5:bootmeth_alloc_file	48	static
+boot/bootmeth-uclass.c:325:5:bootmeth_alloc_other	272	static
+boot/bootmeth-uclass.c:361:5:bootmeth_common_read_file	80	static

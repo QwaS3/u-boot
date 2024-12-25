@@ -1,0 +1,3 @@
+drivers/sm/sm-uclass.c:17:5:sm_call	0	static
+drivers/sm/sm-uclass.c:27:5:sm_call_read	0	static
+drivers/sm/sm-uclass.c:39:5:sm_call_write	0	static

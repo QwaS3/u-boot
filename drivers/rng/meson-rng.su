@@ -1,0 +1,7 @@
+drivers/rng/meson-rng.c:74:12:meson_common_rng_read	0	static
+drivers/rng/meson-rng.c:39:12:meson_rng_read	80	static
+drivers/rng/meson-rng.c:140:12:meson_rng_of_to_plat	32	static
+drivers/rng/meson-rng.c:127:12:meson_rng_remove	16	static
+drivers/rng/meson-rng.c:107:12:meson_rng_probe	48	static
+drivers/rng/meson-rng.c:60:12:meson_rng_wait_status	48	static
+drivers/rng/meson-rng.c:79:12:meson_s4_rng_read	32	static

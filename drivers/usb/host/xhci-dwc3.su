@@ -1,0 +1,6 @@
+drivers/usb/host/xhci-dwc3.c:226:12:xhci_dwc3_remove	48	static
+drivers/usb/host/xhci-dwc3.c:30:6:dwc3_set_mode	0	static
+drivers/usb/host/xhci-dwc3.c:54:6:dwc3_core_soft_reset	32	static
+drivers/usb/host/xhci-dwc3.c:68:5:dwc3_core_init	32	static
+drivers/usb/host/xhci-dwc3.c:158:12:xhci_dwc3_probe	64	static
+drivers/usb/host/xhci-dwc3.c:111:6:dwc3_set_fladj	0	static

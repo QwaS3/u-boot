@@ -1,0 +1,6 @@
+arch/arm/mach-meson/sm.c:37:9:meson_sm_read_efuse	336	static
+arch/arm/mach-meson/sm.c:58:9:meson_sm_write_efuse	336	static
+arch/arm/mach-meson/sm.c:83:5:meson_sm_get_serial	448	static
+arch/arm/mach-meson/sm.c:104:5:meson_sm_get_chip_id	448	static
+arch/arm/mach-meson/sm.c:128:5:meson_sm_get_reboot_reason	32	static
+arch/arm/mach-meson/sm.c:158:5:meson_sm_pwrdm_set	336	static

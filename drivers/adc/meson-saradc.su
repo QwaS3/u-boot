@@ -1,0 +1,10 @@
+drivers/adc/meson-saradc.c:649:12:meson_saradc_stop	16	static
+drivers/adc/meson-saradc.c:702:5:meson_saradc_of_to_plat	48	static
+drivers/adc/meson-saradc.c:193:12:meson_saradc_lock	48	static
+drivers/adc/meson-saradc.c:247:12:meson_saradc_wait_busy_clear	48	static
+drivers/adc/meson-saradc.c:313:13:meson_saradc_stop_sample_engine	32	static
+drivers/adc/meson-saradc.c:448:13:meson_saradc_set_chan7_mux	16	static
+drivers/adc/meson-saradc.c:658:12:meson_saradc_probe	64	static
+drivers/adc/meson-saradc.c:395:12:meson_saradc_get_sample	80	static
+drivers/adc/meson-saradc.c:426:12:meson_saradc_channel_data	32	static
+drivers/adc/meson-saradc.c:625:12:meson_saradc_start_channel	64	static

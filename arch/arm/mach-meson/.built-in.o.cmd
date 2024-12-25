@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-meson/built-in.o :=  rm -f arch/arm/mach-meson/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT arch/arm/mach-meson/built-in.o arch/arm/mach-meson/board-common.o arch/arm/mach-meson/sm.o arch/arm/mach-meson/board-info.o arch/arm/mach-meson/board-axg.o

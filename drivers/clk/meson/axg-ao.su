@@ -1,0 +1,5 @@
+drivers/clk/meson/axg-ao.c:59:12:meson_clk_request	0	static
+drivers/clk/meson/axg-ao.c:25:12:meson_set_gate	32	static
+drivers/clk/meson/axg-ao.c:43:12:meson_clk_disable	0	static
+drivers/clk/meson/axg-ao.c:38:12:meson_clk_enable	0	static
+drivers/clk/meson/axg-ao.c:48:12:meson_clk_probe	32	static

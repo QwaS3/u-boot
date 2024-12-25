@@ -1,0 +1,9 @@
+arch/arm/mach-meson/board-common.c:28:12:board_init	0	static
+arch/arm/mach-meson/board-common.c:33:5:dram_init	32	static
+arch/arm/mach-meson/board-common.c:53:12:meson_ft_board_setup	0	static
+arch/arm/mach-meson/board-common.c:58:5:ft_board_setup	32	static
+arch/arm/mach-meson/board-common.c:65:6:meson_board_add_reserved_memory	32	static
+arch/arm/mach-meson/board-common.c:77:5:meson_generate_serial_ethaddr	64	static
+arch/arm/mach-meson/board-common.c:139:12:meson_board_late_init	0	static
+arch/arm/mach-meson/board-common.c:144:5:board_late_init	16	static
+arch/arm/mach-meson/board-common.c:151:6:reset_cpu	16	static

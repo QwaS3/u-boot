@@ -1,0 +1,4 @@
+lib/lz4.c:66:13:LZ4_wildCopy	0	static
+lib/lz4.c:517:5:LZ4_decompress_safe	112	static
+lib/lz4.c:526:5:LZ4_decompress_safe_partial	128	static
+lib/lz4_wrapper.c:18:5:ulz4fn	176	static

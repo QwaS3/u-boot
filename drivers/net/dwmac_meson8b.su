@@ -1,0 +1,4 @@
+drivers/net/dwmac_meson8b.c:39:12:dwmac_meson8b_of_to_plat	32	static
+drivers/net/dwmac_meson8b.c:135:12:dwmac_meson8b_probe	32	static
+drivers/net/dwmac_meson8b.c:54:12:dwmac_setup_axg	32	static
+drivers/net/dwmac_meson8b.c:92:12:dwmac_setup_gx	32	static

@@ -1,0 +1,3 @@
+arch/arm/mach-meson/board-axg.c:20:5:meson_get_boot_device	0	static
+arch/arm/mach-meson/board-axg.c:28:6:meson_init_reserved_memory	48	static
+arch/arm/mach-meson/board-axg.c:58:13:get_effective_memsize	0	static

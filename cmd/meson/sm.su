@@ -1,0 +1,7 @@
+cmd/meson/sm.c:182:12:do_sm	48	static
+cmd/meson/sm.c:142:12:do_efuse_dump	48	static
+cmd/meson/sm.c:72:12:do_sm_reboot_reason	32	static
+cmd/meson/sm.c:36:12:do_sm_chip_id	16	static
+cmd/meson/sm.c:100:12:do_efuse_read	48	static
+cmd/meson/sm.c:121:12:do_efuse_write	48	static
+cmd/meson/sm.c:18:12:do_sm_serial	16	static

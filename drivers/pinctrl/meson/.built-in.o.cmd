@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/meson/built-in.o :=  rm -f drivers/pinctrl/meson/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/pinctrl/meson/built-in.o drivers/pinctrl/meson/pinctrl-meson.o drivers/pinctrl/meson/pinctrl-meson-axg-pmx.o drivers/pinctrl/meson/pinctrl-meson-axg.o

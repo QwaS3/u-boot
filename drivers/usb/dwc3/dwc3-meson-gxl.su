@@ -1,0 +1,6 @@
+drivers/usb/dwc3/dwc3-meson-gxl.c:127:13:dwc3_meson_gxl_usb2_set_mode	32	static
+drivers/usb/dwc3/dwc3-meson-gxl.c:195:12:dwc3_meson_gxl_force_mode	32	static
+drivers/usb/dwc3/dwc3-meson-gxl.c:384:12:dwc3_meson_gxl_remove	32	static
+drivers/usb/dwc3/dwc3-meson-gxl.c:294:12:dwc3_meson_gxl_probe	80	static
+drivers/usb/dwc3/dwc3-meson-gxl.c:410:12:dwc3_meson_gxl_child_pre_probe	32	static
+drivers/usb/dwc3/dwc3-meson-gxl.c:418:12:dwc3_meson_gxl_child_post_remove	32	static

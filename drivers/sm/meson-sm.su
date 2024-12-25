@@ -1,0 +1,5 @@
+drivers/sm/meson-sm.c:43:22:__meson_sm_call	304	static
+drivers/sm/meson-sm.c:65:12:meson_sm_call	48	static
+drivers/sm/meson-sm.c:82:12:meson_sm_call_read	80	static
+drivers/sm/meson-sm.c:113:12:meson_sm_call_write	80	static
+drivers/sm/meson-sm.c:135:12:meson_sm_probe	304	static

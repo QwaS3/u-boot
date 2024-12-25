@@ -1,0 +1,1 @@
+cmd_board/amlogic/jethub-j100/built-in.o :=  rm -f board/amlogic/jethub-j100/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT board/amlogic/jethub-j100/built-in.o board/amlogic/jethub-j100/jethub-j100.o

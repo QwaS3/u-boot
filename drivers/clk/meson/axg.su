@@ -1,0 +1,8 @@
+drivers/clk/meson/axg.c:53:12:meson_set_gate	32	static
+drivers/clk/meson/axg.c:77:12:meson_clk_disable	0	static
+drivers/clk/meson/axg.c:72:12:meson_clk_enable	0	static
+drivers/clk/meson/axg.c:287:12:meson_clk_probe	32	static
+drivers/clk/meson/axg.c:202:14:meson_pll_get_rate.isra	80	static
+drivers/clk/meson/axg.c:237:14:meson_clk_get_rate_by_id	80	static
+drivers/clk/meson/axg.c:282:14:meson_clk_get_rate	0	static
+drivers/clk/meson/axg.c:82:22:meson_clk81_get_rate	80	static

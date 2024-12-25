@@ -1,0 +1,4 @@
+drivers/phy/meson-gxl-usb2.c:174:12:phy_meson_gxl_usb2_power_off	48	static
+drivers/phy/meson-gxl-usb2.c:122:12:phy_meson_gxl_usb2_set_mode	64	static
+drivers/phy/meson-gxl-usb2.c:158:12:phy_meson_gxl_usb2_power_on	48	static
+drivers/phy/meson-gxl-usb2.c:194:5:meson_gxl_usb2_phy_probe	48	static

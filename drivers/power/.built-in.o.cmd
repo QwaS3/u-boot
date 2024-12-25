@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  rm -f drivers/power/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/power/built-in.o drivers/power/pmic/built-in.o drivers/power/regulator/built-in.o

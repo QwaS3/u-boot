@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/built-in.o :=  rm -f drivers/usb/dwc3/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/usb/dwc3/built-in.o drivers/usb/dwc3/dwc3.o drivers/usb/dwc3/dwc3-meson-gxl.o

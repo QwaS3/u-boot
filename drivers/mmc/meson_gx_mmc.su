@@ -1,0 +1,6 @@
+drivers/mmc/meson_gx_mmc.c:316:5:meson_mmc_bind	32	static
+drivers/mmc/meson_gx_mmc.c:86:12:meson_dm_mmc_set_ios	48	static
+drivers/mmc/meson_gx_mmc.c:244:12:meson_mmc_of_to_plat	32	static
+drivers/mmc/meson_gx_mmc.c:258:12:meson_mmc_probe	80	static
+drivers/mmc/meson_gx_mmc.c:197:12:meson_dm_mmc_send_cmd	80	static
+drivers/mmc/meson_gx_mmc.c:19:6:meson_gx_mmc_is_compatible	32	static

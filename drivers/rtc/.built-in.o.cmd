@@ -1,0 +1,1 @@
+cmd_drivers/rtc/built-in.o :=  rm -f drivers/rtc/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/rtc/built-in.o drivers/rtc/rtc-uclass.o drivers/rtc/pcf8563.o

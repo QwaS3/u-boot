@@ -1,0 +1,1 @@
+cmd_lib/lzma/built-in.o :=  rm -f lib/lzma/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT lib/lzma/built-in.o lib/lzma/LzmaDec.o lib/lzma/LzmaTools.o

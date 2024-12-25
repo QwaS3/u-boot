@@ -1,0 +1,3 @@
+drivers/rtc/pcf8563.c:167:12:pcf8563_rtc_set	48	static
+drivers/rtc/pcf8563.c:189:12:pcf8563_rtc_reset	32	static
+drivers/rtc/pcf8563.c:122:12:pcf8563_rtc_get	80	static

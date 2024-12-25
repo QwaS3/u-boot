@@ -1,0 +1,1 @@
+cmd_drivers/mmc/built-in.o :=  rm -f drivers/mmc/built-in.o; /opt/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ar cDPrsT drivers/mmc/built-in.o drivers/mmc/mmc.o drivers/mmc/mmc-uclass.o drivers/mmc/mmc_bootdev.o drivers/mmc/mmc_write.o drivers/mmc/mmc-pwrseq.o drivers/mmc/meson_gx_mmc.o
